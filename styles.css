@@ -1,0 +1,30 @@
+.nav-bar{
+    padding: 20px;
+    background-color: rgb(57, 57, 57);
+    border-radius: 4px;
+}
+
+.nav-bar div a{
+    gap: 5px;
+    color: white;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.nav-bar div a:hover{
+    color: orange;
+    text-decoration:underline;
+}
+.nav-bar > div{
+    display: inline-block;
+    flex-direction:column;
+    
+}
+
+.nav-bar .btn-signin{
+    position: relative;
+    left: 1160px;
+}
+.nav-bar .btn-signin:hover{
+    background-color: rgb(19, 236, 19);
+}
